@@ -8,22 +8,22 @@
         
         
         <link rel="shortcut icon" href="img/favicon.ico">
-        <title>miniRUSH project</title>
+        <title>RUSH microscopy</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
         <script src="js/jquery-1.10.2.min.js" defer></script>
         <script src="js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body class="homepage">
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">miniRUSH project</a>
+                <a class="navbar-brand" href=".">RUSH microscopy</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -36,6 +36,7 @@
                             <li class="navitem active">
                                 <a href="." class="nav-link">Projects</a>
                             </li>
+
                             <li class="navitem">
                                 <a href="people/" class="nav-link">People</a>
                             </li>
@@ -59,7 +60,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="people/" class="nav-link">
+                                <a rel="next" href="rush/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -78,92 +79,65 @@
     </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+ <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#welcom-to-the-minirush-project" class="nav-link">Welcom to the miniRUSH project</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#rushmini" class="nav-link">RUSHmini</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#deeprush" class="nav-link">deepRUSH</a>
+            <li class="nav-item" data-level="1"><a href="rush/" class="nav-link">Camera-array based microscopy </a></li>
+				
+            <li class="nav-item" data-level="1"><a href="multiplanar/" class="nav-link">Multi-planar microsocpy</a></li>
+			<li class="nav-item" data-level="1"><a href="SDiM/" class="nav-link">Arbitrary Surface Microscopy</a></li>
+			<li class="nav-item" data-level="1"><a href="multichannel/" class="nav-link">Multi-channel Neural Imaging</a></li>
               <ul class="nav flex-column">
               </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#curverush" class="nav-link">curveRUSH</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#rush-mea" class="nav-link">RUSH-MEA</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#spectrumrush" class="nav-link">spectrumRUSH</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#rush-behavior" class="nav-link">RUSH-behavior</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="welcom-to-the-minirush-project">Welcom to the miniRUSH project</h1>
-<p>miniRUSH project aims at developping open-source cortex-wide optical microscopy for dynamic  neural imaging. This project is lead by Dr. Hao Xie at Department of Automation, Tsinghua Unviersity, under the supervision of Prof. Dai.
-This project consitst of the following parts：
-* <strong>RUSHmini</strong>： low-cost alternatives of RUSH microscopy that enables cortex-wide cellular-resolution imaging.
-* <strong>curveRUSH</strong>： optically transform the focal plane into a cylindrical surface to adapt to the crystal skull of mouse in cortex-wide brain imaging.
-* <strong>deepRUSH</strong>: overcoming the scattering problem of optical microscopy by insersion of optical pathways, like galss columns, micro-prisms, and grin lens.
-* <strong>RUSH-MEA</strong>： Simutaneous optical and electric recording/stimulation with RUSH and micro-electrode array.
-* <strong>spectrum-RUSH</strong>： simutaneous optical imaging of multiple colors, which enables the study of  neural-transmitter interactions.
-* <strong>RUSH-behavior</strong>： building the connection between neural coding and rodent behaviors. </p>
-<p>Please contact xiehao@tsinghua.edu.cn for further informations.</p>
-<p><img alt="RUSH" src="overview-1.jpg" /> </p>
-<h2 id="rushmini"><a href="https://www.osapublishing.org/boe/fulltext.cfm?uri=boe-12-4-1858&amp;id=448913">RUSHmini</a></h2>
+<h1 id="cortex-wide-microscopy-at-cellular-resolution"><strong><font size="6" > Cortex-wide  microscopy at cellular resolution</font></strong></h1>
+<table>
+<tbody>
+<tr>
+<td align="left" bgcolor="#FFFFFF"><strong>This project aims at developping large field-of-view and high resolution optical microscopy for dynamic cotex-wide neural imaging in the mouse brain.</strong></td>
+</tr>
+<td align="center" bgcolor="#FFFFFF"><img alt="RUSH" src="overview.jpg" /></td>
+
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr>
+<td align="center"  bgcolor="#FFFFFF"><a href="rush/"><img alt="RUSH" src="RUSH.png" /></a></td>
+<td align="center"  bgcolor="#FFFFFF"><a href="multiplanar/"><img alt="deepRUSH" src="deepRUSH.png" /></a></td>
+</tr>
+<tr>
+<td align="center"><a href="rush/"><font size="4" ><strong> Camera-array based microscopy</strong></font> </a></td>
+<td align="center"><a href="multiplanar/"><font size="4" ><strong>Multi-planar microsocpy</strong></font></a></td>
+</tr>
+<tr>
+<td align="center"  bgcolor="#FFFFFF"><a href="SDiM/"><img alt="SDiM" src="SDiM.png" /></a></td>
+<td align="center"  bgcolor="#FFFFFF"><a href="multichannel/"><img alt="VR" src="VR.png" /></a></td>
+</tr>
+<tr>
+<td align="center"><a href="SDiM/"><font size="4" ><strong>Arbitrary Surface Microscopy</strong></font></a></td>
+<td align="center"><a href="multichannel/"><font size="4" ><strong>Multi-channel Neural Imaging</strong></font></a></td>
+</tr>
+</tbody>
+</table>
 <table>
 <thead>
 <tr>
-<th><img alt="deepRUSH" src="RUSHmini.png" /></th>
+<th align="center"></th>
+<th align="center"></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>The RUSH project is a tremendous project with a total cost of more than $10,000,000. In order to reduce the cost of the cortex-wide brain imaging technique to make it accessible to researchers all over the world, we introduce RUSHmini, which aquires macro-resolution and sub-centimeter scale field of view. Consists of macro zoom microscope lens or evendigital camera lens, the cost of a RUSHmini system can be reduced to 30,000. We have demonstrate its capbilities of cortex-wide neural dynamic imaging at cellular resolution in mice.</td>
+<td align="center"  bgcolor="#48AEE9">Contact us: xiehao@tsinghua.edu.cn</td>
 </tr>
 </tbody>
-</table>
-<h2 id="deeprush"><a href="https://www.osapublishing.org/boe/fulltext.cfm?uri=boe-12-4-1858&amp;id=448913">deepRUSH</a></h2>
-<table>
-<thead>
-<tr>
-<th><img alt="deepRUSH" src="deepRUSH1.png" /></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Interactions between the cerebral cortex and the deep cerebellar nuclei play important roles in cognitive processes. However, conventional microscopes fail to dynamically record cellular structures in distinct brain regions and at different depths, which requires high resolution, large field of view (FOV), and depth of field (DOF). Here we propose a single-photon excited fluorescence microscopy technique that performs simultaneous cortex and hippocampus imaging, enabled by a customized microscope and a chronic optical window. After we implant a glass microwindow above the hippocampus, the surface of the hippocampus is shifted to the superficial plane. We demonstrate that the proposed technique is able to image cellular structures and blood vessel dynamics in the cortex and the hippocampus in in vivo experiments, and is compatible with various mesoscopic systems.We have also inserted micro-prism to investigate neural activity in mPFC. Now we are attempting to combine this technique with GRIN lens for deeper imaging.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="curverush">curveRUSH</h2>
-<p>Conventional optical microscope has a flat focal plane and restricted focal of depth. However, the skull of the mouse is close to a cylinder. To approximate its curvature, we adopt time division multiplexing techinique to achive fast aquisition on a cylinder, with a maximun frequency of 100 fps.</p>
-<h2 id="rush-mea">RUSH-MEA</h2>
-<p>Electrods have their unique advantages of high temporal resolution and minimal damage to the brain tissue, but they failed to provide high spatial resolution. We combined RUSH microscopy and multi-electrode array (MEA) to achieve simutaneous observation in both superficial layer and deep nuclei. This is a joint project  with Dr. Guihua Xiao.</p>
-<h2 id="spectrumrush">spectrumRUSH</h2>
-<p>To reveal the causal relationship between neural activities and neural transmitters, we need to observe different types neural transmitters simutaneouly, which are labeled with different fluorescence proteins.  We have built spectrumRUSH for this purpose.  This project is joint-project with Dr. Jiesi Feng and Dr. Fei Deng from Peking Unversity.</p>
-<h2 id="rush-behavior">RUSH-behavior</h2>
-<p>| <img alt="deepRUSH" src="RUSHbehavior.png" />|
-|-|
-* acoustic-RUSH:  explore the relationship between single neural signals in the desicion making process.
-* visual-RUSH:  decode the neural signals under visual stimulations.
-* RUSH-VR:  compare animal neural activities in complex scenarios, which can be compared with RL.
-* micro-beta: build a mobile platform to meausre mouse brain activity in complex scenarios.</p></div>
+</table></div>
             </div>
         </div>
 
@@ -186,16 +160,13 @@ This project consitst of the following parts：
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
+                <p>From here you can search these documents. Enter your search terms below.</p>
                 <form>
                     <div class="form-group">
                         <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
-                <div id="mkdocs-search-results"></div>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
             <div class="modal-footer">
             </div>
@@ -246,6 +217,6 @@ This project consitst of the following parts：
 </html>
 
 <!--
-MkDocs version : 1.1.2
-Build Date UTC : 2021-04-18 06:14:27.205577+00:00
+MkDocs version : 1.2.3
+Build Date UTC : 2022-02-06 11:01:53.364026+00:00
 -->
